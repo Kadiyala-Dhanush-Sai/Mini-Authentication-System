@@ -1,133 +1,16 @@
-# Mini-Authentication-System
-Full Stack Authentication App using React, Node.js, Express, and MongoDB (Signup &amp; Login with validation)
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# 🔐 Full Stack Authentication App
+Currently, two official plugins are available:
 
-A simple full stack web application that allows users to **register and login** using a React frontend and Node.js backend with MongoDB database.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 🚀 Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-* 📝 User Signup (Register)
-* 🔑 User Login Authentication
-* ⚠️ Error Handling (Incorrect password / User not found)
-* 🔄 Navigation using React Router
-* 🌐 API communication using Axios
-* 🗄️ Data stored in MongoDB
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* React (Vite)
-* Bootstrap (UI Styling)
-* Axios
-* React Router DOM
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-* Mongoose
-
----
-
-## 📁 Project Structure
-
-```
-project-root/
-│
-├── client/       # React frontend
-│   ├── src/
-│   │   ├── Home.jsx
-│   │   ├── Login.jsx
-│   │   ├── Signup.jsx
-│
-├── server/       # Backend
-│   ├── index.js
-│   ├── models/
-│       └── employee.js
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-```
-
----
-
-### 2️⃣ Setup Backend
-
-```bash
-cd server
-npm install
-npm start
-```
-
----
-
-### 3️⃣ Setup Frontend
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
----
-
-## 🔗 API Endpoints
-
-### ➤ Register User
-
-```
-POST /register
-```
-
-### ➤ Login User
-
-```
-POST /login
-```
-
-
-
-## ⚠️ Note
-
-* Passwords are currently stored in plain text (for learning purpose only)
-* Future improvements: password hashing (bcrypt), JWT authentication
-
----
-
-## 🚀 Future Improvements
-
-* 🔐 Secure authentication using JWT
-* 🔒 Password hashing using bcrypt
-* 🌍 Deployment (Vercel + Render + MongoDB Atlas)
-* 🎨 Improved UI/UX
-
----
-
-## 👨‍💻 Author
-
-Kadiyala Dhanush Sai
-
----
-
-## ⭐ If you like this project
-
-Give it a star ⭐ on GitHub!
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
