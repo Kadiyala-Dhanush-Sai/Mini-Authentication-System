@@ -103,13 +103,7 @@ POST /register
 POST /login
 ```
 
----
 
-## 📸 Screenshots (Optional)
-
-Add screenshots of your UI here for better presentation.
-
----
 
 ## ⚠️ Note
 
@@ -129,7 +123,7 @@ Add screenshots of your UI here for better presentation.
 
 ## 👨‍💻 Author
 
-* Your Name
+Kadiyala Dhanush Sai
 
 ---
 
